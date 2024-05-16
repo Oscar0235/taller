@@ -1,0 +1,46 @@
+<div>
+  <label for="ciudad">Filtrar por ciudad:</label>
+  <select id="ciudad" [(ngModel)]="filtroCategoria" (change)="aplicarFiltro()">
+    <option value="">Todas</option>
+    <option *ngFor="let ciudad of categorias" [value]="ciudad">
+      {{ ciudad }}
+    </option>
+  </select>
+</div>
+<div>
+  <label for="precioMin">Precio mínimo:</label>
+  <input
+    type="number"
+    id="precioMin"
+    [(ngModel)]="filtroPrecioMin"
+    (change)="aplicarFiltro()"
+  />
+</div>
+<div>
+  <label for="precioMax">Precio máximo:</label>
+  <input
+    type="number"
+    id="precioMax"
+    [(ngModel)]="filtroPrecioMax"
+    (change)="aplicarFiltro()"
+  />
+</div>
+<button (click)="limpiarFiltros()">Limpiar filtros</button>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Precio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let persona of personas">
+      <td>{{ persona.id }}</td>
+      <td>{{ persona.nombre }}</td>
+      <td>{{ persona.precio }}</td>
+      <td>{{ persona.categoria }}</td>
+    </tr>
+  </tbody>
+</table>

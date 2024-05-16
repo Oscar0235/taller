@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "email": "admin@yop.com",
+      "password": "$2a$10$6iKC1mAqmYmtQWsN3Kk9AeKVizcZz3yjoKMMm9DDrOjAAkbUhk.f6",
+      "role": "administradores",
+      "id": 1
+    },
+    {
+      "email": "visitante@yop.com",
+      "password": "$2a$10$t0Ma/ORWggjtVHQwUWyMo.bBZ/cENFU6gUoGoRNFKfzZKnmZBVMS.",
+      "role": "visitante",
+      "id": 2
+    },
+    {
+      "email": "usuario@yop.com",
+      "password": "$2a$10$9n0e6LlhBsJMCFvLmnkGPecBhtOo8l8OKxFt6bfB2QxVXki2IsM5W",
+      "role": "usuario",
+      "id": 3
+    },
+    {
+      "email": "usua33@yop.com",
+      "password": "$2a$10$g7shyg.xk.jzygrPYu0g5Ow92mpwSWUN.9zdVcQCBt5kKAUpMILsO",
+      "role": "visitante",
+      "id": 4
+    },
+    {
+      "email": "u33@yop.com",
+      "password": "$2a$10$UqL7IAYM3vknMFaxK8cCh.CnHylusE6JmYi3SroM2xJWHDkXavwQG",
+      "role": "usuario",
+      "id": 5
+    }
+  ]
+}

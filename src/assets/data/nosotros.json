@@ -1,0 +1,123 @@
+{
+    "nosotros": [
+      {
+        "id": 1,
+        "nombre": "Estados Unidos",
+        "precio": 500
+      },
+      {
+        "id": 2,
+        "nombre": "Italia",
+  
+        "precio": 300
+      },
+      {
+        "id": 3,
+        "nombre": "Costa Rica",
+  
+        "precio": 150
+      },
+      {
+        "id": 4,
+        "nombre": "Canadá",
+  
+        "precio": 806
+      },
+      {
+        "id": 5,
+        "nombre": "Puerto Rico",
+  
+        "precio": 206
+      },
+      {
+        "id": 6,
+        "nombre": "Japón",
+        "precio": 1500
+      },
+      {
+        "id": 7,
+        "nombre": "Brasil",
+  
+        "precio": 106
+      },
+      {
+        "id": 8,
+        "nombre": "México",
+  
+        "precio": 120
+      },
+      {
+        "id": 9,
+        "nombre": " Noruega",
+  
+        "precio": 307
+      },
+      {
+        "id": 10,
+        "nombre": " Suecia",
+  
+        "precio": 200
+      },
+      {
+        "id": 11,
+        "nombre": "Hawái",
+  
+        "precio": 400
+      },
+      {
+        "id": 12,
+        "nombre": " Suiza",
+  
+        "precio": 227
+      },
+      {
+        "id": 13,
+        "nombre": "Vietnam",
+  
+        "precio": 280
+      },
+      {
+        "id": 14,
+        "nombre": "España",
+  
+        "precio": 159
+      },
+      {
+        "id": 15,
+        "nombre": "Escocia",
+  
+        "precio": 350
+      },
+      {
+        "id": 16,
+        "nombre": "Candado ",
+  
+        "precio": 800
+      },
+      {
+        "id": 17,
+        "nombre": " Nepal",
+  
+        "precio": 450
+      },
+      {
+        "id": 18,
+        "nombre": "Argentina",
+  
+        "precio": 600
+      },
+      {
+        "id": 19,
+        "nombre": " Chile",
+  
+        "precio": 504
+      },
+      {
+        "id": 20,
+        "nombre": " Mexico",
+  
+        "precio": 120
+      }
+    ]
+  }
+  
